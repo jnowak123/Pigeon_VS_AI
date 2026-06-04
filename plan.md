@@ -11,7 +11,7 @@ Since the same slide appears across all magnifications, splits must be done at t
 
 ## Models
 Each model trains on one magnification level. The 5th model trains on all magnifications combined,
-acting as a generalist and tiebreaker in the ensemble vote.
+acting as a generalist and tiebreaker in the ensemble vote. Freeze backbone for 3 epochs, then full train for remaining 27.
 
 | Model | Magnification | Architecture     | Notes                                      |
 |-------|---------------|------------------|--------------------------------------------|
