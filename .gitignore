@@ -12,6 +12,7 @@ build/
 # Data (too large for git)
 BreaKHis_v1/
 data/
+models/
 
 # OS
 .DS_Store
